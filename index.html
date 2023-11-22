@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calcolo Tasse Lavoratore Autonomo</title>
+  </head>
+  <body>
+    <h2>Inserisci i tuoi dati</h2>
+    <form id="lavoratoreForm">
+      <input type="number" id="codredd" placeholder="Codice Redditività" required />
+      <input type="number" id="redditoannuolordo" placeholder="Reddito Annuo Lordo" required />
+      <input type="number" id="tasseinps" placeholder="Tasse INPS (%)" required />
+      <input type="number" id="tasseirpef" placeholder="Tasse IRPEF (%)" required />
+      <button type="submit">Calcola</button>
+    </form>
+    <div id="risultato"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
